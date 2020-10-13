@@ -1,0 +1,26 @@
+{
+  "name": "format-chromium-histogram",
+  "version": "1.0.0",
+  "description": "NodeJS re-implementation of Chromium's C++ about://histograms rendering",
+  "keywords": [
+    "chromium",
+    "chrome",
+    "brave",
+    "devtools",
+    "cdp",
+    "about://histograms",
+    "histograms",
+    "graph",
+    "browser",
+    "ascii"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node print-histogram.js"
+  },
+  "author": "Anton Lazarev <alazarev@brave.com>",
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/brave/format-chromium-histogram#readme",
+  "repository": "https://github.com/brave/format-chromium-histogram.git"
+}
